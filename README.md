@@ -1,2 +1,2 @@
 # 15.TheTeckStack
-Sprint 15: Choices Choices, Leertaak: The Teck Stack.
+Sprint 15: Choices Choices, Leertaak: The Tech Stack.
