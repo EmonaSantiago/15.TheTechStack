@@ -1,5 +1,9 @@
 body {
     font-family: 'Comic Sans', Arial, Helvetica, sans-serif;
-    color: rebeccapurple;
-    background-color: thistle;
+    color: black;
+    background-color: white;
   }
+
+nav {
+  background-color: grey;
+}
