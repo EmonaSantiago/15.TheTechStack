@@ -1,8 +1,24 @@
+* {
+  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+:root {
+  --light-blue: #e3e9f9;
+}
+
 body {
-    font-family: 'Comic Sans', Arial, Helvetica, sans-serif;
     color: black;
     background-color: white;
+    font-family: 'Open Sans', sans-serif;
+	  display: flex;
+	  flex-direction: column;
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
   }
 
 nav {
@@ -50,17 +66,49 @@ nav {
 
 /* Home pagina */
 section {
-  padding: 5em;
+  padding: 10em;
+}
+
+h3 {
+  border: solid 3px black;
+  border-radius: 6px;
+  width: fit-content;
+  padding: 6px;
+  background-color: black;
+  color: white;
 }
 
 section:first-child {
-  background-color: #e3e9f9;
+  background-color: var(--light-blue);
 }
 
+
 section:nth-child(3) {
-  background-color: #e3e9f9;
+  background-color: var(--light-blue);
 }
 
 section:nth-child(5) {
-  background-color: #e3e9f9;
+  background-color: var(--light-blue);
+}
+
+
+main {
+	padding-right: 2rem;
+	padding-left: 2rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 2rem;
+}
+
+@media (min-width: 70em) {
+	main {
+		padding-right: 6rem;
+		padding-left: 6rem;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
+	}
+
+	section {
+		width: 100%;
+	}
 }
