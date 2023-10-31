@@ -46,3 +46,8 @@ nav {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+/* Home pagina */
+section:first-child {
+  background-color: pink;
+}
