@@ -2,6 +2,7 @@ body {
     font-family: 'Comic Sans', Arial, Helvetica, sans-serif;
     color: black;
     background-color: white;
+    margin: 0;
   }
 
 nav {
@@ -48,6 +49,18 @@ nav {
 }
 
 /* Home pagina */
+section {
+  padding: 5em;
+}
+
 section:first-child {
-  background-color: pink;
+  background-color: #e3e9f9;
+}
+
+section:nth-child(3) {
+  background-color: #e3e9f9;
+}
+
+section:nth-child(5) {
+  background-color: #e3e9f9;
 }
