@@ -1,4 +1,4 @@
-# 15.TheTechStack
+# 15.TheTechStack Mijn OBA
 Sprint 15: Choices Choices, Leertaak: The Teck Stack.
 
 Een andere tech-stack voor het ontwerpen en bouwen van de MijnOba opdracht voor MarkVos. 
